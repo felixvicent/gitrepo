@@ -25,6 +25,8 @@ const styles = StyleSheet.create({
         fontSize: 16,
         color: '#333',
         backgroundColor: '#fff',
+        borderWidth: 2,
+        borderColor: '#fff',
     },
     submit: {
         backgroundColor: '#6bd4c1',
@@ -32,6 +34,9 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         borderRadius: 4,
         paddingHorizontal: 14,
+    },
+    list: {
+        marginTop: 20,
     }
 })
 
